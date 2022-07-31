@@ -1,4 +1,4 @@
-const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
+const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = //Massima lunghezza = 12 caratteri
 {
     [MOVE_NONE] = _("-"), //Gen 1
     [MOVE_POUND] = _("Botta"),
@@ -17,7 +17,7 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_SWORDS_DANCE] = _("Danzaspada"),
     [MOVE_CUT] = _("Taglio"),
     [MOVE_GUST] = _("Raffica"),
-    [MOVE_WING_ATTACK] = _("Attacco d'Ala"),
+    [MOVE_WING_ATTACK] = _("Att. d'Ala"), //Nome Completo: Attacco d'Ala
     [MOVE_WHIRLWIND] = _("Turbine"),
     [MOVE_FLY] = _("Volo"),
     [MOVE_BIND] = _("Legatutto"),
